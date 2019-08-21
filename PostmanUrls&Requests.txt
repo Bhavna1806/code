@@ -1,0 +1,37 @@
+Urls:
+
+1> To get all data:
+http://localhost:8080/training/all
+
+2> To add data:
+http://localhost:8080/training/add
+Body:
+{
+   "id" : "104",
+
+   "name" : "Ruby",
+
+   "duration" : "2months",
+
+   "fees" : "22222.22"
+ }
+
+3> To delete data by id
+http://localhost:8080/training/delete/1002
+
+4> To update data by id
+http://localhost:8080/training/update/1004
+
+Body:
+{
+   "id" : "104",
+
+   "name" : "RubyUpdaed",
+
+   "duration" : "22months",
+
+   "fees" : "22112.21"
+ }
+
+5> To delete all data
+http://localhost:8080/training/deleteall

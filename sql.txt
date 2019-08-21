@@ -1,0 +1,11 @@
+CREATE TABLE training(
+	id INT(10) NOT NULL AUTO_INCREMENT,
+	name VARCHAR(150) NOT NULL,
+	duration VARCHAR(150) NOT NULL,
+	fees DOUBLE NOT NULL,
+	PRIMARY KEY (id)
+);
+
+INSERT INTO training VALUES (1001,'Java', '6months', 51100.67);
+INSERT INTO training VALUES (1002,'Php', '1year', 20000.00);
+INSERT INTO training VALUES (1003,'Python', '7months', 80000.00);
